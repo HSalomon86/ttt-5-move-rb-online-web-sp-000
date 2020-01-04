@@ -9,10 +9,8 @@ end
 def input_to_index(num)
 num = num.to_i - 1
 end
-board = [" ", " ", " ",
-          " ", " ", " ",
-          " ", " ", " "
-        ]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 def move(array, index, character="X")
 array[index] = character
 array = ["#{array[0]}", "#{array[1]}", "#{array[2]}",
